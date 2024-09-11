@@ -12,10 +12,11 @@ body {
 }
 
 .card-login {
+    text-align: center;
     color: black;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 20rem;
     padding: 20px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -39,7 +40,7 @@ input {
     padding: 4px;
     font-size: 16px;
     background-color: rgb(255, 255, 255);
-    width: 300px;
+    width: 15rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
     outline: none;
 }
