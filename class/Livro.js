@@ -1,10 +1,11 @@
 class Livro {
-    constructor(titulo, autor, paginas, editora, capa) {
+    constructor(titulo, autor, paginas, editora, capa, cadastrador) {
         this.titulo = titulo;
         this.autor = autor;
         this.paginas = paginas;
         this.editora = editora;
         this.capa = capa;
+        this.cadastrador = cadastrador
     }
     getTitulo() {
         return this.titulo;
@@ -21,6 +22,9 @@ class Livro {
     getCapa() {
         return this.capa;
     }
+    getCadastrador() {
+        return this.cadastrador;
+    }
     setTitulo(titulo) {
         this.titulo = titulo;
     }
@@ -35,5 +39,8 @@ class Livro {
     }
     setCapa(capa) {
         this.capa = capa;
+    }
+    setCadastrador(cadastrador) {
+        this.cadastrador = cadastrador;
     }
 }

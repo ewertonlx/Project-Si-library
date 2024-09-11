@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(0, 114, 114);
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px;
+    width: 790px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+form#register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  form#register input+label {
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+  }
+  
+  input {
+    margin-top: 2px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    padding: 4px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+    outline: none;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  textarea {
+    margin-top: 2px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+    resize: none;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border: 2px solid rgb(0, 114, 114);
+    padding: 1rem;
+  }
+  
+  button {
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(32, 126, 126);
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: rgb(29, 153, 153);
+    cursor: pointer;
+  }
